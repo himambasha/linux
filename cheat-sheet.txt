@@ -1,0 +1,91 @@
+Sure! Here's a **Linux Cheat Sheet** covering essential commands:
+
+---
+
+## **🔹 Basic Linux Commands**
+| Command | Description |
+|---------|------------|
+| `pwd` | Show current directory |
+| `ls -l` | List files in long format |
+| `cd directory` | Change directory |
+| `mkdir new_folder` | Create a new directory |
+| `rm -r folder_name` | Delete a directory |
+
+---
+
+## **🔹 File Management**
+| Command | Description |
+|---------|------------|
+| `touch file.txt` | Create a file |
+| `cp file.txt /path/` | Copy a file |
+| `mv file.txt /new/path/` | Move a file |
+| `rm file.txt` | Delete a file |
+
+---
+
+## **🔹 File Viewing**
+| Command | Description |
+|---------|------------|
+| `cat file.txt` | Display file content |
+| `head -n 5 file.txt` | Show first 5 lines |
+| `tail -n 5 file.txt` | Show last 5 lines |
+| `less file.txt` | Scroll through file content |
+
+---
+
+## **🔹 User Management**
+| Command | Description |
+|---------|------------|
+| `whoami` | Show current user |
+| `who` | Display logged-in users |
+| `adduser username` | Add a new user |
+| `passwd username` | Change user password |
+
+---
+
+## **🔹 Process Management**
+| Command | Description |
+|---------|------------|
+| `ps aux` | Show running processes |
+| `top` | Monitor system usage |
+| `kill PID` | Kill a process (use `ps` to find PID) |
+| `htop` | Interactive process monitoring (if installed) |
+
+---
+
+## **🔹 Disk Management**
+| Command | Description |
+|---------|------------|
+| `df -h` | Show disk space usage |
+| `du -sh folder/` | Show folder size |
+| `mount /dev/sdX /mnt` | Mount a disk |
+| `umount /mnt` | Unmount a disk |
+
+---
+
+## **🔹 Networking**
+| Command | Description |
+|---------|------------|
+| `ifconfig` or `ip a` | Show network interfaces |
+| `ping google.com` | Test connectivity |
+| `curl -I website.com` | Check website headers |
+| `netstat -tulnp` | Show active network connections |
+
+---
+
+## **🔹 Permissions**
+| Command | Description |
+|---------|------------|
+| `chmod 755 file.txt` | Change file permissions |
+| `chown user:group file.txt` | Change file ownership |
+| `sudo command` | Run a command as root |
+
+---
+
+## **🔹 Package Management**
+| Command | Description |
+|---------|------------|
+| `apt update && apt upgrade` | Update packages (Debian/Ubuntu) |
+| `yum update` | Update packages (RHEL/CentOS) |
+| `dnf install package` | Install a package (Fedora) |
+| `pacman -S package` | Install a package (Arch Linux)|
